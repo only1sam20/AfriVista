@@ -27,6 +27,7 @@ body {
   background-color: rgba(80, 55, 30, 0.5);
   border-radius: 50px;
   padding: 20px 20px;
+  /* position: fixed; */
 }
 
 .nav-text {
@@ -95,4 +96,122 @@ body {
 .child-button a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.parent2 {
+  width: 100%;
+  height: 680px;
+  padding: 50px 100px;
+  background-color: #e4d1c0;
+}
+
+.parent2-flex {
+  display: flex;
+  width: 1270px;
+  height: 587px;
+  gap: 86px;
+}
+
+.flex-img {
+  width: 597px;
+  height: 587px;
+}
+
+.flex-text {
+  width: 587px;
+  height: 267px;
+  gap: 30px;
+  padding-top: 180px;
+}
+
+.flex-text h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #a76c34;
+  width: 587;
+  height: 48;
+}
+
+.flex-text h3 {
+  height: 32;
+  gap: 6px;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.flex-text img {
+  width: 25;
+  height: 26px;
+}
+
+.flex-text span {
+  color: #a76c34;
+}
+
+.parent3 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/parent3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 459px;
+  width: 1440;
+  height: 459;
+  padding: 15px 100px;
+}
+
+.Parent3-child {
+  color: #ffffff;
+  width: 1270px;
+  height: 268px;
+  /* border: 2px solid red; */
+  margin: 130px 100px;
+}
+
+.Parent3-child h2 {
+  margin-left: 420px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #f6f0eb;
+  padding-bottom: 15px;
+}
+
+.parent3-flex {
+  display: flex;
+  width: 1074px;
+  height: 190px;
+  gap: 30px;
+}
+
+.flex-child {
+    background-color: rgba(80, 55, 30, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  height: 190px;
+  width: 246px;
+  padding: 30px 20px;
+}
+
+.flex-child img {
+  width: 36px;
+  height: 36px;
+  margin-left: 80px;
+}
+
+.flex-child h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f6f0eb;
+  text-align: center;
+}
+
+.flex-child p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #f6f0eb;
+  text-align: center;
+  padding-top: 10px;
 }
